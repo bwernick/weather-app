@@ -1,4 +1,5 @@
 {
+  "homepage": "http://bwernick.github.io/weather-app",
   "main": "index.js",
   "scripts": {
     "android": "react-native run-android",
@@ -6,8 +7,8 @@
     "web": "expo start --web",
     "start": "react-native start",
     "test": "jest",
-    "predeploy": "expo build:web",
-    "deploy": "npx gh-pages -d web-build"
+    "deploy": "gh-pages -d web-build",
+    "predeploy": "expo build:web"
   },
   "dependencies": {
     "expo": "~38.0.9",
@@ -33,6 +34,5 @@
   "jest": {
     "preset": "react-native"
   },
-  "homepage": "http://bwernick.github.io/weather-app",
   "private": true
 }
